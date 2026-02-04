@@ -1,4 +1,4 @@
-FROM python:3.11
+FROM python:3.14
 
 RUN pip install uv
 WORKDIR /usr/src/app
